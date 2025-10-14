@@ -1,9 +1,3 @@
-// Name:Jayson
-// Date:8/18/25
-// Assn: DVDLogo
-
-// Declare Global Variables
-
 let xPos = 300;
 let yPos = 280;
 let xVel = 10;
@@ -46,8 +40,4 @@ function draw() {
     fill(random(255), random(255), random(255));
     yVel = 10;
   }
-}
-
-function mousePressed() {
-
 }
