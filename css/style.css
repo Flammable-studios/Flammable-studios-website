@@ -35,3 +35,8 @@ h1 {
     display: block;
     margin-left: 50%;
 }
+
+.link {
+    color: black;
+    text-decoration: none;
+}
