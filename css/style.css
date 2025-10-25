@@ -43,3 +43,7 @@ h1 {
     color: white;
     text-decoration: none;
 }
+
+.writing {
+    font-family: "Courier New", monospace;
+}
