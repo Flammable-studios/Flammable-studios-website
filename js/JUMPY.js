@@ -331,8 +331,6 @@ function reset() {
   level = 0
   pX = 290
   pX2 = 290
-  start = 0
-  background('green')
 }
 
 
@@ -342,3 +340,4 @@ function cloud(x, y) {
   ellipse(x + 30, y, 60, 50)
   ellipse(x, y, 60, 50)
 }
+
