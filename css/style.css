@@ -47,4 +47,5 @@ h1 {
 .writing {
     font-family: "Courier New", monospace;
     font-weight: bold;
+    display: flex;
 }
