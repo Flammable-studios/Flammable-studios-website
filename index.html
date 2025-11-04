@@ -5,21 +5,59 @@
 	<meta charset="utf-8">
 	<title>Flammable studios Home</title>
 	<link href="css/style.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
 	<script src="libraries/p5.min.js"></script>
 	<script src="libraries/p5.sound.min.js"></script>
-	
-	<h1><a href="index.html" class="navlink">Flammable studios</a></a><a href="Games.html" class="navlink"> |
-			Games</a></a><a href="https://github.com/orgs/Flammable-studios/repositories" class="navlink"
-			target="_blank"> | Github</a>
-	</h1>
-	<p>
-		Welcome to Flammable Studios, a creative collective dedicated to crafting engaging and innovative games.
-		Explore our latest projects and join us on our journey to ignite imagination and fun!
-	</p>
+	<script src="js/bootstrap.bundle.js"></script>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="bears.html">Bear</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="page3.html">3rd page</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="navbar.html">4th page</a></li>
+								<li><a class="dropdown-item" href="index.html">Home again...</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div>
+			<p>
+
+			</p>
 </body>
 
 </html>
