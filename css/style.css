@@ -49,3 +49,9 @@ h1 {
     font-weight: bold;
     display: flex;
 }
+
+.title{
+    position: relative;
+    left:250px;
+    font-size: xx-large;
+}
