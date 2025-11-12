@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(49, 47, 47);
 }
 
 h1 {
@@ -26,5 +26,5 @@ h3 {
     font-weight: bold;
     color:black;
     background:white;
-    border-width:30px;
+    padding: 75px;
 }
