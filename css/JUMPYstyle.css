@@ -27,4 +27,10 @@ h3 {
     color:black;
     background:white;
     padding: 75px;
+    margin-top: 525px;
+}
+
+#canvas-container {
+    position: absolute;
+    left: 350px;
 }
